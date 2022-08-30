@@ -12,20 +12,27 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="match_parent"
-        android:layout_height="292dp"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
         android:layout_gravity="center"
         android:src="@drawable/shopping" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="216dp"
+        android:layout_height="116dp"
         android:src="@drawable/deliveryboy" />
+
+    <Button
+        android:id="@+id/btn_intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buuuudaaaaa" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cozmonito Kungu" />
+
 </LinearLayout>
